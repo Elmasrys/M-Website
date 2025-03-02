@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-900">
             <span className="block">Enterprise Virtual Employees</span>
-            <span className="block mt-2 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-700">
+            <span className="block mt-2 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-purple-700">
               Powered by AI
             </span>
           </h1>
