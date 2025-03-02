@@ -33,10 +33,10 @@ const Navbar = () => {
 
           {/* Desktop menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-gray-700 hover:text-indigo-600 transition-colors">Features</a>
-            <a href="#how-it-works" className="text-gray-700 hover:text-indigo-600 transition-colors">How It Works</a>
-            <a href="#use-cases" className="text-gray-700 hover:text-indigo-600 transition-colors">Use Cases</a>
-            <a href="#testimonials" className="text-gray-700 hover:text-indigo-600 transition-colors">Testimonials</a>
+            <a href="#features" className="text-gray-700 hover:text-green-600 transition-colors">Features</a>
+            <a href="#how-it-works" className="text-gray-700 hover:text-green-600 transition-colors">How It Works</a>
+            <a href="#use-cases" className="text-gray-700 hover:text-green-600 transition-colors">Use Cases</a>
+            <a href="#testimonials" className="text-gray-700 hover:text-green-600 transition-colors">Testimonials</a>
             <a href="#contact" className="bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity">
               Get Started
             </a>
@@ -46,7 +46,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button 
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-indigo-600"
+              className="text-gray-700 hover:text-green-600"
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
