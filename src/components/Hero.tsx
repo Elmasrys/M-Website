@@ -3,9 +3,9 @@ import { ArrowRight, Bot, Sparkles } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <div className="relative overflow-hidden pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-b from-indigo-50 to-white">
+    <div className="relative overflow-hidden pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-b from-green-50 to-white">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-radial from-indigo-100 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-radial from-green-100 to-transparent"></div>
       
       {/* Animated grid */}
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBzdHJva2U9IiNFOEVBRjYiIHN0cm9rZS13aWR0aD0iLjUiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTTAgMGg2MHY2MEgweiIvPjwvZz48L3N2Zz4=')]"></div>

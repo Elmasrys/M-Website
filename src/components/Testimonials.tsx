@@ -24,10 +24,10 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="py-20 bg-gradient-to-b from-indigo-50 to-white">
+    <section id="testimonials" className="py-20 bg-gradient-to-b from-green-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-700">
+          <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-purple-700">
             What Our Clients Say
           </h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
@@ -39,15 +39,15 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div 
               key={index} 
-              className="p-6 rounded-lg border border-indigo-100 bg-white shadow-md hover:shadow-lg transition-all"
+              className="p-6 rounded-lg border border-green-100 bg-white shadow-md hover:shadow-lg transition-all"
             >
-              <Quote className="h-8 w-8 text-indigo-500 mb-4" />
+              <Quote className="h-8 w-8 text-green-500 mb-4" />
               <p className="text-gray-600 mb-6 italic">"{testimonial.quote}"</p>
               <div className="flex items-center">
                 <img 
                   src={testimonial.image} 
                   alt={testimonial.author} 
-                  className="h-12 w-12 rounded-full object-cover mr-4 border border-indigo-200 shadow-sm"
+                  className="h-12 w-12 rounded-full object-cover mr-4 border border-green-200 shadow-sm"
                 />
                 <div>
                   <h4 className="text-gray-900 font-semibold">{testimonial.author}</h4>
@@ -60,7 +60,7 @@ const Testimonials = () => {
         
         <div className="mt-16 text-center">
           <div className="inline-flex items-center space-x-2">
-            <div className="h-3 w-3 rounded-full bg-indigo-500"></div>
+            <div className="h-3 w-3 rounded-full bg-green-500"></div>
             <div className="h-3 w-3 rounded-full bg-gray-300"></div>
             <div className="h-3 w-3 rounded-full bg-gray-300"></div>
           </div>

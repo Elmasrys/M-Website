@@ -45,12 +45,12 @@ const HowItWorks = () => {
                       {step.icon}
                     </div>
                     <div className="ml-4 lg:hidden">
-                      <span className="text-2xl font-bold text-indigo-600">Step {index + 1}</span>
+                      <span className="text-2xl font-bold text-green-600">Step {index + 1}</span>
                     </div>
                   </div>
                   
                   <div className="hidden lg:block mb-4">
-                    <span className="text-2xl font-bold text-indigo-600">Step {index + 1}</span>
+                    <span className="text-2xl font-bold text-green-600">Step {index + 1}</span>
                   </div>
                   
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">{step.title}</h3>
@@ -58,7 +58,7 @@ const HowItWorks = () => {
                   
                   {index < steps.length - 1 && (
                     <div className="hidden lg:flex justify-end mt-4">
-                      <ArrowRight className="h-6 w-6 text-indigo-600" />
+                      <ArrowRight className="h-6 w-6 text-green-600" />
                     </div>
                   )}
                 </div>
@@ -70,7 +70,7 @@ const HowItWorks = () => {
         <div className="mt-16 text-center">
           <a 
             href="#contact" 
-            className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-md hover:opacity-90 transition-opacity gap-2 font-medium shadow-md"
+            className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-green-500 to-purple-600 text-white rounded-md hover:opacity-90 transition-opacity gap-2 font-medium shadow-md"
           >
             Start Building Your EVE <ArrowRight className="h-4 w-4" />
           </a>

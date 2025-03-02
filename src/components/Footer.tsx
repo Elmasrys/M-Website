@@ -8,22 +8,22 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="md:col-span-1">
             <a href="/" className="flex items-center space-x-2 mb-4">
-              <div className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-md p-1.5">
+              <div className="bg-gradient-to-r from-green-500 to-purple-600 rounded-md p-1.5">
                 <Zap className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-700">Maverika</span>
+              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-purple-700">Maverika</span>
             </a>
             <p className="text-gray-600 mb-4">
               AI-powered Enterprise Virtual Employees for the modern organization.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-500 hover:text-indigo-600 transition-colors">
+              <a href="#" className="text-gray-500 hover:text-green-600 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-500 hover:text-indigo-600 transition-colors">
+              <a href="#" className="text-gray-500 hover:text-green-600 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-500 hover:text-indigo-600 transition-colors">
+              <a href="#" className="text-gray-500 hover:text-green-600 transition-colors">
                 <Github className="h-5 w-5" />
               </a>
             </div>
@@ -34,7 +34,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {['Features', 'Use Cases', 'Pricing', 'Security', 'Enterprise', 'Roadmap'].map((item, index) => (
                 <li key={index}>
-                  <a href="#" className="text-gray-600 hover:text-indigo-600 transition-colors">
+                  <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
                     {item}
                   </a>
                 </li>
@@ -47,7 +47,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {['Documentation', 'API Reference', 'Guides', 'Blog', 'Case Studies', 'Community'].map((item, index) => (
                 <li key={index}>
-                  <a href="#" className="text-gray-600 hover:text-indigo-600 transition-colors">
+                  <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
                     {item}
                   </a>
                 </li>
@@ -60,7 +60,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {['About Us', 'Careers', 'Contact', 'Partners', 'Legal', 'Privacy Policy'].map((item, index) => (
                 <li key={index}>
-                  <a href="#" className="text-gray-600 hover:text-indigo-600 transition-colors">
+                  <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
                     {item}
                   </a>
                 </li>
@@ -74,13 +74,13 @@ const Footer = () => {
             © {new Date().getFullYear()} Maverika. All rights reserved.
           </p>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-500 hover:text-indigo-600 transition-colors text-sm">
+            <a href="#" className="text-gray-500 hover:text-green-600 transition-colors text-sm">
               Terms of Service
             </a>
-            <a href="#" className="text-gray-500 hover:text-indigo-600 transition-colors text-sm">
+            <a href="#" className="text-gray-500 hover:text-green-600 transition-colors text-sm">
               Privacy Policy
             </a>
-            <a href="#" className="text-gray-500 hover:text-indigo-600 transition-colors text-sm">
+            <a href="#" className="text-gray-500 hover:text-green-600 transition-colors text-sm">
               Cookie Policy
             </a>
           </div>
