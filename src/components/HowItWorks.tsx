@@ -70,7 +70,7 @@ const HowItWorks = () => {
         <div className="mt-16 text-center">
           <a 
             href="#contact" 
-            className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-green-500 to-purple-600 text-white rounded-md hover:opacity-90 transition-opacity gap-2 font-medium shadow-md"
+            className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-md hover:opacity-90 transition-opacity gap-2 font-medium shadow-md"
           >
             Start Building Your EVE <ArrowRight className="h-4 w-4" />
           </a>
