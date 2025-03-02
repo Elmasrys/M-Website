@@ -27,7 +27,7 @@ const Testimonials = () => {
     <section id="testimonials" className="py-20 bg-gradient-to-b from-green-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-purple-700">
+          <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-green-700">
             What Our Clients Say
           </h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">

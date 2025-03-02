@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-900">
             <span className="block">Enterprise Virtual Employees</span>
-            <span className="block mt-2 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-purple-700">
+            <span className="block mt-2 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-green-700">
               Powered by AI
             </span>
           </h1>
@@ -57,7 +57,7 @@ const Hero = () => {
                 </div>
                 <div className="mt-6 flex space-x-2">
                   <div className="px-3 py-1 rounded-full bg-green-100 text-green-600 text-sm font-medium">AI-Powered</div>
-                  <div className="px-3 py-1 rounded-full bg-purple-100 text-purple-600 text-sm font-medium">Autonomous</div>
+                  <div className="px-3 py-1 rounded-full bg-green-100 text-green-600 text-sm font-medium">Autonomous</div>
                   <div className="px-3 py-1 rounded-full bg-blue-100 text-blue-600 text-sm font-medium">Adaptive</div>
                 </div>
               </div>

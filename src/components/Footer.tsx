@@ -8,10 +8,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="md:col-span-1">
             <a href="/" className="flex items-center space-x-2 mb-4">
-              <div className="bg-gradient-to-r from-green-500 to-purple-600 rounded-md p-1.5">
+              <div className="bg-gradient-to-r from-green-500 to-green-600 rounded-md p-1.5">
                 <Zap className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-purple-700">Maverika</span>
+              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-green-700">Maverika</span>
             </a>
             <p className="text-gray-600 mb-4">
               AI-powered Enterprise Virtual Employees for the modern organization.

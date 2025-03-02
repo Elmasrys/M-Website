@@ -10,7 +10,7 @@ const CTA = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="max-w-4xl mx-auto">
-          <div className="p-8 md:p-12 rounded-2xl bg-gradient-to-r from-green-50 to-purple-50 border border-green-100 shadow-xl">
+          <div className="p-8 md:p-12 rounded-2xl bg-gradient-to-r from-green-50 to-green-100 border border-green-100 shadow-xl">
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -33,7 +33,7 @@ const CTA = () => {
                 </ul>
                 <a 
                   href="#" 
-                  className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-green-500 to-purple-600 text-white rounded-md hover:opacity-90 transition-opacity gap-2 font-medium shadow-md"
+                  className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-md hover:opacity-90 transition-opacity gap-2 font-medium shadow-md"
                 >
                   Schedule a Demo <ArrowRight className="h-4 w-4" />
                 </a>
@@ -41,10 +41,10 @@ const CTA = () => {
 
               <div className="md:w-1/2">
                 <div className="relative">
-                  <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 to-purple-600 rounded-lg blur opacity-75"></div>
+                  <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 to-green-600 rounded-lg blur opacity-75"></div>
                   <div className="relative bg-white rounded-lg overflow-hidden border border-green-100 p-6 shadow-lg">
                     <div className="flex items-center mb-6">
-                      <div className="h-12 w-12 rounded-full bg-gradient-to-r from-green-500 to-purple-600 flex items-center justify-center mr-4 shadow-md">
+                      <div className="h-12 w-12 rounded-full bg-gradient-to-r from-green-500 to-green-600 flex items-center justify-center mr-4 shadow-md">
                         <Bot className="h-6 w-6 text-white" />
                       </div>
                       <div>
@@ -84,7 +84,7 @@ const CTA = () => {
                       </div>
                       <button 
                         type="submit" 
-                        className="w-full py-2 bg-gradient-to-r from-green-500 to-purple-600 text-white rounded-md hover:opacity-90 transition-opacity font-medium shadow-md"
+                        className="w-full py-2 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-md hover:opacity-90 transition-opacity font-medium shadow-md"
                       >
                         Get Started
                       </button>
