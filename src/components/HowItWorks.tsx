@@ -3,17 +3,17 @@ import { BrainCircuit, Workflow, Bot, ArrowRight } from 'lucide-react';
 
 const steps = [
   {
-    icon: <BrainCircuit className="h-8 w-8 text-indigo-600" />,
+    icon: <BrainCircuit className="h-8 w-8 text-green-600" />,
     title: 'Train Your EVEs',
     description: 'Upload your organization\'s data, processes, and knowledge base to train your Enterprise Virtual Employees.'
   },
   {
-    icon: <Workflow className="h-8 w-8 text-indigo-600" />,
+    icon: <Workflow className="h-8 w-8 text-green-600" />,
     title: 'Design Workflows',
     description: 'Use our intuitive workflow builder to create complex business processes for your EVEs to execute.'
   },
   {
-    icon: <Bot className="h-8 w-8 text-indigo-600" />,
+    icon: <Bot className="h-8 w-8 text-green-600" />,
     title: 'Deploy & Monitor',
     description: 'Deploy your EVEs to production and monitor their performance with real-time analytics and insights.'
   }
