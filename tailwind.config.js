@@ -5,6 +5,9 @@ export default {
     extend: {
       colors: {
         indigo: {
+          950: '#1a1a4a',
+        },
+        green: {
           950: '#72f68e',
         },
       },
