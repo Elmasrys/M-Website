@@ -34,7 +34,7 @@ const Testimonials = () => {
             Hear from organizations that have transformed their operations with Maverika's Enterprise Virtual Employees.
           </p>
         </div>
-        
+
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div 
@@ -57,7 +57,7 @@ const Testimonials = () => {
             </div>
           ))}
         </div>
-        
+
         <div className="mt-16 text-center">
           <div className="inline-flex items-center space-x-2">
             <div className="h-3 w-3 rounded-full bg-green-500"></div>

@@ -46,7 +46,7 @@ const UseCases = () => {
             Maverika's Enterprise Virtual Employees can be deployed across various departments to automate complex workflows.
           </p>
         </div>
-        
+
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {useCases.map((useCase, index) => (
             <div 
@@ -61,7 +61,7 @@ const UseCases = () => {
             </div>
           ))}
         </div>
-        
+
         <div className="mt-16 p-8 rounded-lg border border-green-100 bg-gradient-to-r from-green-50 to-purple-50 shadow-md">
           <div className="text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Custom Use Case Development</h3>

@@ -28,7 +28,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-gray-900 font-semibold mb-4">Product</h3>
             <ul className="space-y-2">
@@ -41,7 +41,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-gray-900 font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
@@ -54,7 +54,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-gray-900 font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
@@ -68,7 +68,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
             © {new Date().getFullYear()} Maverika. All rights reserved.

@@ -31,11 +31,11 @@ const HowItWorks = () => {
             Getting started with Maverika is simple. Follow these steps to deploy your first Enterprise Virtual Employee.
           </p>
         </div>
-        
+
         <div className="mt-16 relative">
           {/* Connecting line */}
           <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-green-500 to-green-600 transform -translate-y-1/2 hidden lg:block"></div>
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {steps.map((step, index) => (
               <div key={index} className="relative">
@@ -48,14 +48,14 @@ const HowItWorks = () => {
                       <span className="text-2xl font-bold text-green-600">Step {index + 1}</span>
                     </div>
                   </div>
-                  
+
                   <div className="hidden lg:block mb-4">
                     <span className="text-2xl font-bold text-green-600">Step {index + 1}</span>
                   </div>
-                  
+
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">{step.title}</h3>
                   <p className="text-gray-600 flex-grow">{step.description}</p>
-                  
+
                   {index < steps.length - 1 && (
                     <div className="hidden lg:flex justify-end mt-4">
                       <ArrowRight className="h-6 w-6 text-green-600" />
@@ -66,7 +66,7 @@ const HowItWorks = () => {
             ))}
           </div>
         </div>
-        
+
         <div className="mt-16 text-center">
           <a 
             href="#contact" 
