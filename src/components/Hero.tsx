@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
             <a 
               href="#contact" 
-              className="px-8 py-3 bg-gradient-to-r from-green-500 to-purple-600 text-white rounded-md hover:opacity-90 transition-opacity flex items-center justify-center gap-2 font-medium shadow-md"
+              className="px-8 py-3 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-md hover:opacity-90 transition-opacity flex items-center justify-center gap-2 font-medium shadow-md"
             >
               Get Started <ArrowRight className="h-4 w-4" />
             </a>
@@ -41,13 +41,13 @@ const Hero = () => {
         
         {/* Hero image */}
         <div className="mt-16 relative">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 to-purple-600 rounded-lg blur opacity-75"></div>
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 to-green-600 rounded-lg blur opacity-75"></div>
           <div className="relative bg-white rounded-lg overflow-hidden border border-green-100 shadow-xl">
             <div className="aspect-[16/9] bg-gradient-to-br from-green-50 to-white flex items-center justify-center">
               <div className="flex flex-col items-center">
                 <div className="relative">
                   <Sparkles className="absolute -top-6 -right-6 h-8 w-8 text-green-500 animate-pulse" />
-                  <div className="h-24 w-24 rounded-full bg-gradient-to-r from-green-500 to-purple-600 flex items-center justify-center shadow-lg">
+                  <div className="h-24 w-24 rounded-full bg-gradient-to-r from-green-500 to-green-600 flex items-center justify-center shadow-lg">
                     <Bot className="h-12 w-12 text-white" />
                   </div>
                 </div>

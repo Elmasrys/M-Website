@@ -21,10 +21,10 @@ const steps = [
 
 const HowItWorks = () => {
   return (
-    <section id="how-it-works" className="py-20 bg-gradient-to-b from-white to-indigo-50">
+    <section id="how-it-works" className="py-20 bg-gradient-to-b from-white to-green-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-700">
+          <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-green-700">
             How Maverika Works
           </h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
@@ -34,14 +34,14 @@ const HowItWorks = () => {
         
         <div className="mt-16 relative">
           {/* Connecting line */}
-          <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-indigo-500 to-purple-600 transform -translate-y-1/2 hidden lg:block"></div>
+          <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-green-500 to-green-600 transform -translate-y-1/2 hidden lg:block"></div>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {steps.map((step, index) => (
               <div key={index} className="relative">
-                <div className="p-8 rounded-lg border border-indigo-100 bg-white shadow-md hover:shadow-lg transition-all h-full flex flex-col">
+                <div className="p-8 rounded-lg border border-green-100 bg-white shadow-md hover:shadow-lg transition-all h-full flex flex-col">
                   <div className="flex items-center mb-6">
-                    <div className="h-16 w-16 rounded-full bg-indigo-100 flex items-center justify-center border border-indigo-200 z-10 shadow-md">
+                    <div className="h-16 w-16 rounded-full bg-green-100 flex items-center justify-center border border-green-200 z-10 shadow-md">
                       {step.icon}
                     </div>
                     <div className="ml-4 lg:hidden">

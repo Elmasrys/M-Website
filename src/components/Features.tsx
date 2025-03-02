@@ -3,32 +3,32 @@ import { Cpu, Workflow, Database, Shield, Zap, BarChart } from 'lucide-react';
 
 const features = [
   {
-    icon: <Cpu className="h-6 w-6 text-indigo-600" />,
+    icon: <Cpu className="h-6 w-6 text-green-600" />,
     title: 'AI-Powered Automation',
     description: 'Deploy intelligent agents that learn from your organization\'s data and automate complex workflows.'
   },
   {
-    icon: <Workflow className="h-6 w-6 text-indigo-600" />,
+    icon: <Workflow className="h-6 w-6 text-green-600" />,
     title: 'Workflow Orchestration',
     description: 'Design, deploy, and monitor end-to-end business processes with our intuitive workflow builder.'
   },
   {
-    icon: <Database className="h-6 w-6 text-indigo-600" />,
+    icon: <Database className="h-6 w-6 text-green-600" />,
     title: 'Knowledge Integration',
     description: 'Connect your existing knowledge bases, documents, and systems to create a unified intelligence layer.'
   },
   {
-    icon: <Shield className="h-6 w-6 text-indigo-600" />,
+    icon: <Shield className="h-6 w-6 text-green-600" />,
     title: 'Enterprise-Grade Security',
     description: 'Bank-level encryption, role-based access controls, and comprehensive audit logs for all operations.'
   },
   {
-    icon: <Zap className="h-6 w-6 text-indigo-600" />,
+    icon: <Zap className="h-6 w-6 text-green-600" />,
     title: 'Rapid Deployment',
     description: 'Get up and running in days, not months, with pre-built templates and no-code configuration options.'
   },
   {
-    icon: <BarChart className="h-6 w-6 text-indigo-600" />,
+    icon: <BarChart className="h-6 w-6 text-green-600" />,
     title: 'Performance Analytics',
     description: 'Track EVE performance, identify optimization opportunities, and measure ROI with detailed analytics.'
   }
