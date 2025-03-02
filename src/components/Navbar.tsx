@@ -37,7 +37,7 @@ const Navbar = () => {
             <a href="#how-it-works" className="text-gray-700 hover:text-indigo-600 transition-colors">How It Works</a>
             <a href="#use-cases" className="text-gray-700 hover:text-indigo-600 transition-colors">Use Cases</a>
             <a href="#testimonials" className="text-gray-700 hover:text-indigo-600 transition-colors">Testimonials</a>
-            <a href="#contact" className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity">
+            <a href="#contact" className="bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity">
               Get Started
             </a>
           </div>
